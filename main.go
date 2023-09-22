@@ -50,6 +50,22 @@ func EvenOdd() {
 	}
 }
 
+func tanishaModulus(dividend1, divisor1 int) int {
+	dividend1 = 10
+	divisor1 = 3 //tanishaModulus is the name of the function
+	if divisor1 == 0 {
+		return -1 // Handle division by zero error.
+	}
+
+	result := dividend1
+	for result >= divisor1 {
+		result -= divisor1
+	}
+
+	return result
+	fmt.Printf("The remainder of %d divided by %d is %d\n", dividend1, divisor1, remainder)
+}
+
 func main() {
 	Honda := Bikes{
 		Name:  "R15",
@@ -64,4 +80,5 @@ func main() {
 	printTPattern(7)
 	fmt.Printf("Area of triangle by Sahil : %d", sahiltrianglearea(12, 10))
 	EvenOdd()
+	remainder := tanishaModulus(dividend1, divisor1)
 }
