@@ -66,6 +66,12 @@ func tanishaModulus(dividend1, divisor1 int) int {
 	fmt.Printf("The remainder of %d divided by %d is %d\n", dividend1, divisor1, remainder)
 }
 
+func  beantsquareOf5() int {
+    return 5 * 5
+	fmt.Println("The square of 5 is:", result)
+}
+
+
 func main() {
 	Honda := Bikes{
 		Name:  "R15",
@@ -81,4 +87,5 @@ func main() {
 	fmt.Printf("Area of triangle by Sahil : %d", sahiltrianglearea(12, 10))
 	EvenOdd()
 	remainder := tanishaModulus(dividend1, divisor1)
+	result := beantsquareOf5()
 }
