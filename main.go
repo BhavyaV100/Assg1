@@ -37,18 +37,6 @@ func sahiltrianglearea(length, width int) int {
 	return Ar
 }
 
-func EvenOdd() {
-	var input int
-	// Checking number is even or odd
-	fmt.Println("Enter the number :")
-	fmt.Scanln(&input)
-
-	if input%2 == 0 {
-		fmt.Println("The numebr is Even")
-	} else {
-		fmt.Println("The number is Odd")
-	}
-}
 
 func tanishaModulus(dividend1, divisor1 int) int {
 	dividend1 = 10
@@ -85,7 +73,7 @@ func main() {
 	fmt.Printf("Bhavya function add: %d\n", result)
 	printTPattern(7)
 	fmt.Printf("Area of triangle by Sahil : %d", sahiltrianglearea(12, 10))
-	EvenOdd()
+	EvenOdd()  // call EvenOdd function of Rutvik Pathak
 	remainder := tanishaModulus(dividend1, divisor1)
 	result := beantsquareOf5()
 }
