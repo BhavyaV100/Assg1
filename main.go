@@ -59,6 +59,19 @@ func  beantsquareOf5() int {
 	fmt.Println("The square of 5 is:", result)
 }
 
+func EvenOdd() {
+	var input int
+	// Checking number is even or odd
+	fmt.Println("Enter the number :")
+	fmt.Scanln(&input)
+
+	if input%2 == 0 {
+		fmt.Println("The numebr is Even")
+	} else {
+		fmt.Println("The number is Odd")
+	}
+}
+
 
 func main() {
 	Honda := Bikes{
